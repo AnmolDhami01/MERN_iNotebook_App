@@ -8,6 +8,7 @@ import Alert from "./components/Alert"; // IF USING DEFUALT EXPORT
 import Signup from "./components/Signup";
 import Login from "./components/Login";
 import { useState } from "react";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   const [alert, setAlert] = useState(null);
@@ -39,6 +40,9 @@ function App() {
               </Route>
               <Route exact path="/signup">
                 <Signup showAlert={showAlert} />
+              </Route>
+              <Route exact path="/contact">
+                <ContactUs showAlert={showAlert} />
               </Route>
             </Switch>
           </div>

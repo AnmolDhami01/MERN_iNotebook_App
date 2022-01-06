@@ -13,22 +13,21 @@ const About = () => {
                     width: "542px",
                     height: "528px",
                     position: "relative",
-                    left: "-101px",
-                    top: "-3px",
+                    left: "-2px",
+                    top: "-10px",
                   }}
-                  src="https://picsum.photos/200?mobile"
+                  src="https://picsum.photos/200/300/?blur"
                   alt=""
                   className="img-fluid"
                 />
               </figure>
             </div>
             <div className="col-md-6 col-12 main_header_left">
-              <p>Welcome to Weather App</p>
+              <p>Welcome to the iNotebook</p>
               <h1>
                 I am A <span className="text_clr"> Full Stack Devloper</span>{" "}
-                Mern And Php
               </h1>
-              <a href="/weather">
+              <a href="https://github.com/AnmolDhami01">
                 <button className="btn btn-dark">Check Now</button>
               </a>
             </div>
